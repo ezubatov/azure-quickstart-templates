@@ -2,17 +2,14 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "newStorageAccountName": {
-      "value": "storageaccount1"
-    },
     "adminUsername": {
       "value": "myadminname"
     },
     "adminPassword": {
-      "value": "password"
+      "value": "GEN-PASSWORD"
     },
-    "dnsNameForPublicIP": {
-      "value": "mydnsname"
+    "dnsLabelPrefix": {
+      "value": "GEN-UNIQUE"
     },
     "departmentName": {
       "value": "myDepartment"
