@@ -1,7 +1,11 @@
 # Create HDInsight Linux Cluster and run Custom Script Action
 
 Create HDInsight Linux Cluster and run Custom Script Action -<br>
+<<<<<<< HEAD
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Fhdinsight-linux-run-script-action%2Fazuredeploy.json" target="_blank">
+=======
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fezubatov%2Fazure-quickstart-templates%2Fmaster%2Fhdinsight-linux-run-script-action%2Fazuredeploy.json" target="_blank">
+>>>>>>> aee2667268a9272c93011132fd236d2f4a645959
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 

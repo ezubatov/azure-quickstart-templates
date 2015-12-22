@@ -3,5 +3,9 @@
   "description": "Template creates an HDInsight Linux cluster in a virtual network and then runs a custom script action on every node and sets environment var.",
   "githubUsername": "ezubatov",
   "summary": "Template creates an HDInsight Linux cluster in a virtual network and then runs a custom script action on every node and sets environment var.",
+<<<<<<< HEAD
   "dateUpdated": "2015-09-28"
+=======
+  "dateUpdated": "2015-09-16"
+>>>>>>> aee2667268a9272c93011132fd236d2f4a645959
 }
