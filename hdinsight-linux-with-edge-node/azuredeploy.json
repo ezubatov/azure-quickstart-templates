@@ -417,7 +417,7 @@
                         "https://raw.githubusercontent.com/ezubatov/Edge-Node-Scripts/master/edgeNodeSetup.sh",
                         "[parameters('edgeNodeSetupScriptUri')]"
                     ],
-                    "commandToExecute": "[concat('sudo -E bash edgeNodeSetup.sh ',parameters('edgeNodeSetupScriptUri'),' ',parameters('clusterName'),' ',parameters('sshUserName'),' ',parameters('sshPassword'),' ',parameters('clusterLoginUserName'),' ',parameters('clusterLoginPassword'))]"
+                    "commandToExecute": "[concat('sudo -E bash edgeNodeSetup.sh \'',parameters('edgeNodeSetupScriptUri'),'\' \'',parameters('clusterName'),'\' \'',parameters('sshUserName'),'\' \'',parameters('sshPassword'),'\' \'',parameters('clusterLoginUserName'),'\' \'',parameters('clusterLoginPassword'),'\'')]"
                 }
             }
         }
