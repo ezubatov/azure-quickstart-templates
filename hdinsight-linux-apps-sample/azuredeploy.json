@@ -26,8 +26,7 @@
       "installScriptActions": [{
         "name": "hue-install",
         "uri": "https://anthonmpersistedstore.blob.core.windows.net/iaasapplicationartifacts/Hue/scripts/Hue-install_v0.sh",
-        "roles": ["edgenode"],
-        "parameters":[]
+        "roles": ["edgenode"]
       }],
       "uninstallScriptActions": [],
       "httpsEndpoints": [{
